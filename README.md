@@ -1,9 +1,9 @@
 # go-integration-testutil
 Common utilities for integration tests
 
-### Packages
+## Packages
 
-##### env
+### env
 
 Provides functions related to reading environment variables from the OS
 
@@ -11,7 +11,7 @@ Provides functions related to reading environment variables from the OS
 
     animal := GetEnv("MY_ANIMAL", "horses")
 
-##### async
+### async
 
 Provides functions related to waiting for a given state to be fulfilled before a timeout is triggered.
 
